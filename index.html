@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My-Portfolio</title>
+</head>
+
+<body>
+    <nav class="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-blue-50 to-purple-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="text-2xl font-bold text-gray-700 font-sans">MJDesign</div>
+                <!-- Menu for desktop -->
+                <div class="hidden md:flex space-x-4">
+                    <a href="#home"><button
+                            class="text-gray-700 hover:text-blue-600 font-sans transition duration-300">HOME</button></a>
+                    <a href="#about"><button
+                            class="text-gray-700 hover:text-blue-600 font-sans transition duration-300">ABOUT</button></a>
+                    <a href="#services"><button
+                            class="text-gray-700 hover:text-blue-600 font-sans transition duration-300">SERVICES</button></a>
+                    <a href="#resume"><button
+                            class="text-gray-700 hover:text-blue-600 font-sans transition duration-300">RESUME</button></a>
+                    <a href="#portfolio"><button
+                            class="text-gray-700 hover:text-blue-600 font-sans transition duration-300">PORTFOLIO</button></a>
+                    <a href="#contact"><button
+                            class="text-gray-700 hover:text-blue-600 font-sans transition duration-300">CONTACT</button></a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-700 focus:outline-none text-5xl">
+                        ☰
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden flex-cols space-y-2 space-x-4 pb-4 text-2xl">
+                <a href="#home"><button
+                        class="text-gray-700 underline hover:text-purple-600 font-sans hover:font-serif transition duration-300">HOME</button></a>
+                <a href="#about"><button
+                        class="text-gray-700 underline hover:text-purple-600 font-sans hover:font-serif transition duration-300">ABOUT</button></a>
+                <a href="#services"><button
+                        class="text-gray-700 underline hover:text-purple-600 font-sans hover:font-serif transition duration-300">SERVICES</button></a>
+                <a href="#resume"><button
+                        class="text-gray-700 underline hover:text-purple-600 font-sans hover:font-serif transition duration-300">RESUME</button></a>
+                <a href="#portfolio"><button
+                        class="text-gray-700 underline hover:text-purple-600 font-sans hover:font-serif transition duration-300">PORTFOLIO</button></a>
+                <a href="#contact"><button
+                        class="text-gray-700 underline hover:text-purple-600 font-sans hover:font-serif transition duration-300">CONTACT</button></a>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="flex lg:flex-row flex-col justify-center items-center gap-20 lg:py-10 py-0">
+        <div
+            class="flex lg:justify-end justify-center items-center lg:text-7xl md:text-5xl text-4xl font-sans w-full lg:h-screen min-h-full lg:pt-0 pt-25">
+            <div>
+                <h1>
+                    HELLO!
+                    <br>
+                    THIS IS MJDESIGN
+                    <br>
+                    WEB DEVELOPER
+                </h1>
+                <div class="flex lg:flex-row flex-col lg:py-5 py-3 gap-2">
+                    <button
+                        class="bg-white rounded-full text-lg py-2 px-8 hover:bg-black hover:cursor-pointer hover:text-white transition duration-300 ease-in-out font-sans">DOWNLOAD
+                        CV <i class="fa-solid fa-download"></i>
+                    </button>
+                    <button
+                        class="text-white bg-black rounded-full text-lg py-2 px-8 hover:bg-white hover:cursor-pointer hover:text-black transition duration-300 ease-in-out"><i
+                            class="fa-solid fa-play"></i>VIDEO TOUR</button>
+                    <h1 class="text-lg pt-3 font-sans text-white">
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-start items-center w-full lg:h-screen h-full">
+            <div class="bg-gray-200 lg:w-110 w-full lg:h-100 h-full rounded-md shadow-lg">
+                <img src="prof.pic.jpg" alt="pic1"
+                    class="lg:w-100 w-full lg:h-110 h-full lg:mt-10 mt-0  lg:ml-15 ml-0 rounded-md lg:shadow-lg shadow-0">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="bg-gray-100 py-10">
+        <div class="text-center pb-10">
+            <h1 class="lg:text-xl text-2xl underline py-5">PROFILE
+            </h1>
+            <h1 class="lg:text-6xl md:text-4xl text-3xl">MOMENT IN TIME</h1>
+        </div>
+        <div class="flex lg:flex-row flex-col justify-center items-center">
+            <div class="flex justify-center w-full lg:h-full min-h-full">
+                <img src="Skills.png" alt="" class="lg:w-150 w-full lg:h-120 h-full">
+            </div>
+            <div class="w-full lg:h-full min-h-full">
+                <h1 class="lg:text-start text-center lg:text-xl text-3xl py-5 underline">ABOUT ME</h1>
+                <h1 class="lg:text-start text-center lg:text-3xl text-3xl font-semibold py-5">PASSIONATE
+                    AND DEDICATED
+                    <br>
+                    ASPIRING FREELANCER
+                </h1>
+                <p class="lg:text-start text-center lg:text-2xl text-2xl pt-5 lg:w-130 w-full lg:px-0 px-5">As an
+                    aspiring Freelance
+                    Web
+                    Designer, It's such an honor to extend my knowledge and skills to help build
+                    your
+                    portfolio.
+                    Designing your profile according to your desire is the best thing I want to do.
+                    Creating
+                    your Web Page will also broadened my knowledge and developed my skills.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="py-10 w-full lg:h-screen min-h-full">
+        <div class="text-center pb-10">
+            <h1 class="lg:text-xl text-2xl underline py-7">
+                SERVICES</h1>
+            <h1 class="lg:text-6xl md:text-4xl text-3xl">WHAT I DO</h1>
+        </div>
+        <div class="flex lg:flex-row flex-col lg:py-5 py-3 gap-2 lg:px-20 px-0 w-full">
+            <div
+                class="bg-blue-100 rounded-lg px-5 pt-10 group hover:bg-black hover:text-white cursor-pointer transition duration-400 ease-in-out shadow-lg">
+                <h1 class="lg:text-2xl md:text-3xl text-3xl font-semibold text-center">UI/UX DESIGN
+                </h1>
+                <h1 class="lg:text-2xl md:text-2xl text-3xl pt-5">
+                    Creating a user-friendly Web page with sleek and modern design to the user.</h1>
+                <div class="flex justify-center lg:mt-4 md:mt-16 mt-3">
+                    <h1
+                        class="bg-white group-hover:text-black border border-gray-100 lg:text-2xl text-3xl text-center px-7 py-5">
+                        Get Design
+                    </h1>
+                </div>
+            </div>
+            <div
+                class="bg-blue-100 rounded-lg px-5 pt-10 group hover:bg-black hover:text-white cursor-pointer transition duration-400 ease-in-out shadow-lg">
+                <h1 class="lg:text-2xl md:text-3xl text-3xl font-semibold text-center">MODERN FRAMEWORKS
+                </h1>
+                <h1 class="lg:text-2xl md:text-2xl text-3xl pt-5">
+                    Flexible to design any frameworks like - BootStrap, TailwindCSS and Vue.js and more.</h1>
+                <div class="flex justify-center lg:mt-4 mt-3">
+                    <h1
+                        class="bg-white group-hover:text-black border border-gray-100 lg:text-2xl text-3xl text-center px-7 py-5">
+                        Get Design
+                    </h1>
+                </div>
+            </div>
+            <div
+                class="bg-blue-100 rounded-lg px-5 pt-10 group hover:bg-black hover:text-white cursor-pointer transition duration-400 ease-in-out shadow-lg">
+                <h1 class="lg:text-2xl md:text-3xl text-3xl font-semibold text-center">RESPONSIVE DISPLAY</h1>
+                <h1 class="lg:text-2xl md:text-2xl text-3xl pt-5">
+                    Develop a design that can be displayed accurate for Desktop, Tablet and Mobile.</h1>
+                <div class="flex justify-center mt-12">
+                    <h1
+                        class="bg-white group-hover:text-black border border-gray-100 lg:text-2xl text-3xl text-center px-7 py-5">
+                        Get Design
+                    </h1>
+                </div>
+            </div>
+            <div
+                class="bg-blue-100 rounded-lg px-5 pt-10 group hover:bg-black hover:text-white cursor-pointer transition duration-400 ease-in-out shadow-lg">
+                <h1 class="lg:text-2xl md:text-3xl text-3xl font-semibold text-center">ANIMATE DESIGN</h1>
+                <h1 class="lg:text-2xl md:text-2xl text-3xl pt-5">
+                    Fabricating a Lively and vibrant looking designs that suited to your desire.</h1>
+                <div class="flex justify-center items-end mt-12">
+                    <h1
+                        class="bg-white group-hover:text-black border border-gray-100 lg:text-2xl text-3xl text-center px-7 py-5">
+                        Get Design
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="py-10 w-full">
+        <div class="text-center pb-10 w-full h-auto">
+            <h1 id="resume" class="lg:text-xl text-2xl underline py-7">
+                RESUME</h1>
+            <h1 class="lg:text-6xl md:text-4xl text-2xl">EDUCATION & EXPERIENCE
+            </h1>
+        </div>
+        <div class="flex justify-center lg:flex-row flex-col gap-10 my-5 mx-15">
+            <div>
+                <div>
+                    <h1 class="lg:text-2xl text-3xl underline font-semibold">
+                        EDUCATION</h1>
+                </div>
+                <div class="flex lg:flex-row flex-col w-full gap-5 mt-10 p-5 rounded-lg shadow-lg">
+                    <div>
+                        <h1 class="lg:text-2xl text-3xl">2025</h1>
+                        <h1 class="lg:text-xl text-2xl">
+                            Web page Developer - EastWatch Services LLC.,
+                        </h1>
+                    </div>
+                    <div class="lg:border-l border-t border-gray-300 lg:pl-10 pl-0">
+                        <h1 class="lg:text-xl text-2xl">Front-end Development</h1>
+                        <h1 class="lg:text-xl text-2xl">
+                            Developing a landing page through HTML, CSS, JavaScript, BootStrap, Tailwind.
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h1 class="lg:text-2xl text-3xl underline font-semibold">
+                        EXPERIENCE</h1>
+                </div>
+                <div class="flex lg:flex-row flex-col w-full bg-white gap-5 mt-10 p-5 rounded-lg shadow-lg">
+                    <div>
+                        <h1 class="lg:text-2xl text-3xl">2025</h1>
+                        <h1 class="lg:text-xl text-2xl">
+                            Web Page Development
+                        </h1>
+                    </div>
+                    <div class="lg:border-l border-t border-gray-300 lg:pl-10 pl-0">
+                        <h1 class="lg:text-xl text-2xl">Internet Cafe</h1>
+                        <h1 class="lg:text-xl text-2xl">
+                            Introducing the modern technology and promoting to the locals.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mx-15">
+        <div>
+            <h1 class="flex lg:justify-start justify-center lg:text-2xl text-3xl underline font-semibold">
+                SKILLS</h1>
+        </div>
+        <div class="mt-5 p-5 rounded-lg shadow-lg">
+            <div class="flex items-center lg:flex-row flex-col gap-5 py-2">
+                <h1 class="w-30 lg:text-2xl text-3xl">HTML</h1>
+                <div class="progress-bar bg-emerald-500 w-full h-5 rounded-md" data-fill="80"></div>
+            </div>
+            <div class="flex items-center lg:flex-row flex-col gap-5 py-2">
+                <h1 class="w-30 lg:text-2xl text-3xl">CSS</h1>
+                <div class="progress-bar bg-blue-800 w-full h-5 rounded-md" data-fill="75"></div>
+            </div>
+            <div class="flex items-center lg:flex-row flex-col gap-5 py-2">
+                <h1 class="w-30 lg:text-2xl text-3xl">JavaScript</h1>
+                <div class="progress-bar bg-orange-700 w-full h-5 rounded-md" data-fill="60"></div>
+            </div>
+            <div class="flex items-center lg:flex-row flex-col gap-5 py-2">
+                <h1 class="w-30 lg:text-2xl text-3xl">BootStrap</h1>
+                <div class="progress-bar bg-rose-900 w-full h-5 rounded-md" data-fill="70"></div>
+            </div>
+            <div class="flex items-center lg:flex-row flex-col gap-5 py-2">
+                <h1 class="w-30 lg:text-2xl  text-3xl">Tailwind</h1>
+                <div class="progress-bar bg-sky-500 w-full h-5 rounded-md" data-fill="85"></div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio" class="text-center pb-10">
+        <h1 id="portfolio" class="lg:text-xl text-2xl underline py-7">
+            PORTFOLIO</h1>
+        <h1 class="lg:text-6xl md:text-4xl text-3xl">SOME INSPIRATION</h1>
+    </div>
+    <div class="flex lg:flex-row flex-col justify-center p-2 gap-2 mx-20">
+        <button
+            class="bg-black rounded-full text-md text-white py-2 px-8 hover:cursor-pointer transition duration-400 ease-in-out">ALL
+        </button>
+        <button
+            class="bg-white rounded-full text-md py-2 px-8 hover:bg-black hover:cursor-pointer hover:text-white transition duration-400 ease-in-out">PROJECTS
+        </button>
+        <button
+            class="bg-white rounded-full text-md py-2 px-8 hover:bg-black hover:cursor-pointer hover:text-white transition duration-400 ease-in-out">SOCIAL
+        </button>
+    </div>
+    <div class="flex flex-col lg:flex-row lg:justify-between gap-8 mt-10 mx-15">
+        <!-- Card 1 -->
+        <div class="relative w-full lg:w-1/3 h-80 hover:shadow-xl transition-shadow duration-300 group lg:mt-5 mt-10">
+            <div
+                class="bg-[url(rmjj.png)] bg-cover bg-center rounded-lg shadow-lg w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+            </div>
+            <div
+                class="flex justify-center items-center text-center bg-blue-100 w-11/12 h-20 lg:text-xl text-lg absolute inset-x-0 inset-y-70 mx-auto rounded-lg shadow-lg group-hover:text-green-800 transition-colors duration-300">
+                <h1>LANDING PAGE <br> RMJJ INTERNETCAFE</h1>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="relative w-full lg:w-1/3 h-80 hover:shadow-xl transition-shadow duration-300 group lg:mt-5 mt-20">
+            <div
+                class="bg-[url(figma.png)] bg-cover bg-center rounded-lg shadow-lg w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+            </div>
+            <div
+                class="flex justify-center items-center text-center bg-blue-100 w-11/12 lg:h-20 h-30 lg:text-xl text-lg absolute inset-x-0 inset-y-70 mx-auto rounded-lg shadow-lg group-hover:text-green-800 transition-colors duration-300">
+                <h1>FIGMA FILE <br> CONVERTED FIGMA FILE INTO PLAIN
+                    HTML, CSS</h1>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="relative w-full lg:w-1/3 h-80 hover:shadow-xl transition-shadow duration-300 group lg:mt-5 mt-20">
+            <div
+                class="bg-[url(image.png)] bg-cover bg-center rounded-lg shadow-lg w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+            </div>
+            <div
+                class="flex justify-center items-center text-center bg-blue-100 w-11/12 h-20 lg:text-xl text-lg absolute inset-x-0 inset-y-70 mx-auto rounded-lg shadow-lg group-hover:text-green-800 transition-colors duration-300">
+                <h1>PRODUCT <br> MARKETING PAGE</h1>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="text-center pt-25 mx-15">
+        <h1 class="lg:text-xl text-2xl underline py-7">CONTACT
+        </h1>
+        <h1 class="lg:text-6xl md:text-4xl text-3xl">FOR INQUIRY</h1>
+        <div class="flex justify-center my-3">
+            <i
+                class="fa-brands fa-facebook text-blue-500 text-4xl mr-2 hover:cursor-pointer hover:text-blue-900 transition duration-300 ease-in-out"></i>
+            <i
+                class="fa-brands fa-facebook-messenger text-blue-700 text-4xl mr-2 hover:cursor-pointer hover:text-blue-900 transition duration-300 ease-in-out"></i>
+            <i
+                class="fa-brands fa-instagram text-red-600 text-4xl mr-2 hover:cursor-pointer hover:text-red-900 transition duration-300 ease-in-out"></i>
+            <i
+                class="fa-brands fa-whatsapp text-green-600 text-4xl mr-2 hover:cursor-pointer hover:text-green-900 transition duration-300 ease-in-out"></i>
+        </div>
+        <div class="flex flex-col md:flex-col lg:flex-row w-full justify-center pt-10 gap-5">
+            <div class="items-center border rounded-lg py-3 w-full">
+                <h1 class="lg:text-2xl text-xl underline">ADDRESS</h1>
+                <div class="flex lg:flex-row flex-col justify-center">
+                    <div>
+                        <i class="fa-solid fa-map-location-dot text-3xl text-red-500 lg:mx-3 mx-0"></i>
+                    </div>
+                    <h1 class="lg:text-2xl text-lg">Sta. Teresa
+                        Village, Cuambogan, Tagum City
+                        <br>
+                        Davao
+                        Del Norte, Philippines
+                    </h1>
+                </div>
+            </div>
+            <div class="items-center border rounded-lg py-3 w-full">
+                <h1 class="lg:text-2xl text-xl underline">PHONE</h1>
+                <div class="flex lg:flex-row flex-col justify-center">
+                    <div>
+                        <i class="fa-solid fa-square-phone text-3xl text-green-500 lg:mx-3 mx-0"></i>
+                    </div>
+                    <h1 class="lg:text-2xl text-lg">+63 995 184
+                        2649<br>+63 930 357 0418</h1>
+                </div>
+            </div>
+            <div class="items-center border rounded-lg py-3 w-full">
+                <h1 class="lg:text-2xl text-xl underline"> EMAIL</h1>
+                <div class="flex lg:flex-row flex-col justify-center">
+                    <div>
+                        <i class="fa-solid fa-envelope text-3xl text-gray-500 lg:mx-3 mx-0"></i>
+                    </div>
+                    <h1 class="lg:text-2xl text-lg">
+                        mjdesign@gmail.com</a><br>
+                        mjim2025@gmail.com</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center w-full ">
+        <div class="py-5 lg:text-xl lext-lg w-full">
+            <div class="flex justify-center items-center pt-3">
+                <hr class="w-150 mr-2">
+                <h1>
+                    ©2025 MJDesign</h1>
+                <hr class="w-150 ml-2">
+            </div>
+            <p>All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+        document.addEventListener("DOMContentLoaded", () => {
+            const progressBars = document.querySelectorAll('.progress-bar');
+
+            // Function to animate the progress bar from left to right
+            const animateProgressBar = (progressBar) => {
+                const fillPercentage = progressBar.getAttribute('data-fill');
+                progressBar.style.transition = 'width 1s ease-out'; // Smooth transition
+                progressBar.style.width = `${fillPercentage}%`; // Animate width based on data-fill
+            };
+
+            // Check if progress bars are in view
+            const checkVisibility = () => {
+                progressBars.forEach(bar => {
+                    const rect = bar.getBoundingClientRect();
+                    if (rect.top >= 0 && rect.top <= window.innerHeight * 0.75) {
+                        // If 75% of the bar is in view, animate the progress bar
+                        if (!bar.classList.contains('filled')) { // Prevent re-animation
+                            animateProgressBar(bar);
+                            bar.classList.add('filled'); // Mark as filled to avoid re-trigger
+                        }
+                    }
+                });
+            };
+
+            // Check visibility on page load and scroll
+            window.addEventListener('scroll', checkVisibility);
+            checkVisibility(); // Initial check when the page loads
+        });
+    </script>
+</body>
+
+</html>
